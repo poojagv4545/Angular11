@@ -1,0 +1,10 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: yellowgreen;
+    padding: 20px;
+}
+img{
+    height: 100px;
+}

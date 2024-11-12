@@ -1,0 +1,11 @@
+<app-header [cn]="c" ></app-header>
+<button (click)="incr()">+</button>
+<button (click)="decr()">-</button>
+<input type="text" placeholder="enter book name" onChangeTextHandler= {this.onChangeTextHandler}>
+
+<div class="books">
+    <app-book [image]="img1" title="title"></app-book>
+    <app-book [image]="img2" title="title2"></app-book>
+    <app-book [image]="img3" title="title3"></app-book>
+</div>
+<app-footer></app-footer>

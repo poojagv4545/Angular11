@@ -1,0 +1,14 @@
+#movie{
+    display: flex;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+    background-color: aqua;
+    margin: 20px;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}
